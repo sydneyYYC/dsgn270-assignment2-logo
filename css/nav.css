@@ -1,0 +1,54 @@
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: flex-start;
+
+  width: 100%;
+  height: min-content;
+
+  padding: 1rem;
+  
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+/*hover*/
+a{
+  padding: 0.5rem;
+}
+a:hover{
+  background: rgb(248, 168, 31);
+}
+/*small logo in nav*/
+.nav-logo{
+  width: 40px;
+  display: block;
+
+  stroke: white;
+  fill: white;
+  background-color: black;
+  
+  padding: 0 1rem 0 1rem;
+  padding-bottom: 0;
+  padding-top: 0;
+  /*removes flex grow and shrink*/
+  flex: none;
+}
+
+/*changes logo colors to white*/
+.f-full-logo-nav{
+  fill: white;
+  stroke: white;
+}
+/*fills font with white*/
+.words-logo-nav{
+  fill: white;
+}

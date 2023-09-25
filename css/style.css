@@ -1,0 +1,17 @@
+
+/*changes color of large logo*/
+.logoline{
+  fill: rgb(248, 168, 31);
+}
+
+/*changes width of small logo*/
+.small-logo{
+  width: 70px;
+}
+
+/*changes color of small logo*/
+.f-full-logo{
+  fill: rgb(248, 168, 31);
+  stroke: rgb(248, 168, 31);
+}
+
